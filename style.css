@@ -58,11 +58,11 @@ button:hover {
 }
 
 /* Contact */
-ul {
+.contacts {
   padding-left: 10%;
   padding-top: 5%;
 }
-ul li {
+.contacts li {
   font-size: 24pt;
 }
 
