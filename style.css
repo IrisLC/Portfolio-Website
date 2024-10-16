@@ -35,11 +35,19 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-size: 2ch;
+}
+
 .main {
   width: 75%;
   min-height: 100vh;
   background-color: var(--white);
   padding: 1rem;
+}
+
+.spacer {
+  height: 3rem;
 }
 
 button {
