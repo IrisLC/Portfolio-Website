@@ -149,6 +149,11 @@ button:hover {
   border-color: #000;
 }
 
+.open3 {
+  height: 18rem;
+  border-color: #000;
+}
+
 .plus-minus {
   display: flex;
   justify-content: center;

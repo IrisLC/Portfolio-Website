@@ -1,9 +1,11 @@
 let button1 = document.getElementById("head-one");
 let button2 = document.getElementById("head-two");
+let button3 = document.getElementById("head-three");
 
 if (button1 !== null) {
   button1.addEventListener("click", open1);
   button2.addEventListener("click", open2);
+  button3.addEventListener("click", open3);
 }
 
 function open1() {
@@ -16,6 +18,12 @@ function open2() {
   let answer = document.getElementById("drop-two");
   button2.classList.toggle("openPlus");
   answer.classList.toggle("open2");
+}
+
+function open3() {
+  let answer = document.getElementById("drop-three");
+  button3.classList.toggle("openPlus");
+  answer.classList.toggle("open3");
 }
 
 let d1 = document.getElementById("dorsey-1");
