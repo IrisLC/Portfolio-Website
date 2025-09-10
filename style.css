@@ -35,6 +35,16 @@ h1 {
   text-align: center;
 }
 
+h5 {
+  font-size: 3ch;
+  margin-bottom: 0ch;
+}
+
+h6 {
+  font-size: 2ch;
+  margin-bottom: 0ch;
+}
+
 p {
   font-size: 2ch;
 }
